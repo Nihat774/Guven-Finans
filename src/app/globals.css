@@ -8,8 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-poppins); 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +19,26 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  @apply font-sans;
+}
+
+.guven-bg-image {
+  background-image: url('/guvenfinans/guvenfinans-background.png');
+  background-repeat: no-repeat;
+}
+.myDarkBlue {
+  color:#15305B;
+  
+}
+
+.rotate-text {
+  transform: rotate(-90deg);
+ 
+}
+@layer utilities {
+  .font-urbanist {
+    font-family: var(--font-urbanist);
+  }
 }
