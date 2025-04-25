@@ -13,7 +13,7 @@ function Header() {
       <header
         className={`flex justify-between items-center h-20 px-5 md:px-[86px] z-50`}
       >
-        <Link href="/" className="text-white">
+        <Link href="/guvenfinans" className="text-white">
           <p className="text-2xl font-semibold">Güvən Finans</p>
           <p className="text-[13px] md:text-[15px] font-light">Uğurlar Güvənlə Başlar</p>
         </Link>
@@ -29,7 +29,7 @@ function Header() {
 
         
         <Link
-          href="/"
+          href="/guvenfinans"
           className="hidden md:flex justify-center items-center rounded-tr-[10px] rounded-bl-[10px] font-semibold text-[16px] bg-white text-black h-[54px] w-[144px]"
         >
           Bizimlə görüş
@@ -71,6 +71,7 @@ function Header() {
           ))}
         </nav>
         <Link
+        onClick={()=>setIsOpen(false)}
           href="/guvenfinans"
           className="flex justify-center m-5 items-center rounded-tr-[10px] rounded-bl-[10px] font-semibold text-[16px] bg-white text-black h-[54px] w-[144px]"
         >

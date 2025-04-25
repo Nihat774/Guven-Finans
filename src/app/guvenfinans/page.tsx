@@ -19,7 +19,7 @@ function GuvenFinans() {
           şirkətinizə dəyər qatırıq.
         </p>
         <Link
-          href=""
+          href="/guvenfinans"
           className="flex gap-1 rounded-bl-[10px] border rounded-tr-[10px] w-[164px] h-[45px] md:h-[54px] justify-center items-center"
         >
           <p>Xidmətlərimiz</p>
