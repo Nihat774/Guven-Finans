@@ -15,7 +15,7 @@ import { TbMailFilled } from "react-icons/tb";
 function Footer() {
   return (
     <footer>
-      <div className="flex justify-between  min-h-[70vh] bg-darkBlue bg-[#15305B] text-white px-[86px]">
+      <div className="flex md:flex-row flex-col justify-between  min-h-[70vh] bg-darkBlue bg-[#15305B] text-white px-5 md:px-[86px]">
         <div className="flex flex-col ">
           <Image
             src="/images/icon.svg"
@@ -61,7 +61,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 py-11">
+        <div className="flex flex-col gap-6 py-4 md:py-11">
           <p className="text-[20px] font-semibold">Əlaqə</p>
 
           <div className="flex flex-col gap-5">
@@ -92,7 +92,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 py-11">
+        <div className="flex flex-col gap-6 py-4 md:py-11">
           <p className="text-xl font-semibold">Xidmətlərimiz</p>
 
           <div className="flex flex-col gap-2">
@@ -109,7 +109,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center gap-5 ">
+        <div className="flex flex-col justify-center gap-5 md:pb-0 pb-10">
           <p className="text-xl font-semibold">Səhifələr</p>
 
           <div className="flex flex-col gap-1">
@@ -117,7 +117,7 @@ function Footer() {
               return (
                 <div className="flex gap-2 items-center hover:underline" key={index}>
                   <p className="size-[4px] rounded-full bg-white"></p>
-                  <Link href={item.path} className="text-[17px] font-light ">
+                  <Link href={item.path} className="text-xl md:text-[17px] font-light ">
                     {item.name}
                   </Link>
                 </div>
@@ -127,7 +127,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="bg-[#15305B] flex justify-center py-2 border-t border-white text-white text-[15px] font-light">
+      <div className="bg-[#15305B] px-5 flex justify-center  md:text-start text-center py-2 border-t border-white text-white text-[15px] font-light">
         <p>
           Copyright &copy; 2014 Bütün Hüquqları Güvən Finans tərəfindən qorunur.
         </p>

@@ -10,12 +10,14 @@ export default function GuvenFinans({
 {
   return (
     <>
-      <div className={` guven-bg-image ` }>
+      <div 
+      className={` guven-bg-image ` }
+      >
         <div className="  min-h-screen">
           <SubHeader />
           <Header />
 
-          <main className="px-[86px]">{children}</main>
+          <main className="px-[40px] md:px-[86px]">{children}</main>
         </div>
         <Footer />
       </div>

@@ -16,11 +16,11 @@ function BizKimikPage() {
     setIsClicked(!isClicked);
   };
   return (
-    <main className=" flex items-center gap-8 min-h-[100vh]">
-      <section className="relative">
+    <main className=" flex flex-col md:flex-row items-center  md:items-center gap-8 min-h-[100vh]">
+      <section className="relative md:py-0 py-10">
         <video
           ref={videoRef} 
-          className="h-[500px] w-[627px] object-cover rounded-l-[13px]"
+          className="h-[300px] w-[660px] md:h-[500px] md:w-[627px] object-cover rounded-[13px] md:rounded-l-[13px]"
           controls
           onClick={()=>setIsClicked(!isClicked)}
         >
@@ -33,7 +33,7 @@ function BizKimikPage() {
           null
         ) : (
           <div
-            className="size-[80px] flex justify-center items-center bg-white rounded-full absolute top-[44%] left-[42%] z-10 cursor-pointer"
+            className="size-[80px] flex justify-center items-center bg-white rounded-full absolute top-[40%] left-[37%] md:top-[44%] md:left-[42%] z-10 cursor-pointer"
             style={{
               background:
                 "linear-gradient(90deg, rgba(61, 124, 223, 1) 0%, rgba(137, 170, 222, 1) 50%)",
@@ -44,19 +44,19 @@ function BizKimikPage() {
           </div>
         )}
       </section>
-      <section className="w-[50%] flex flex-col  gap-4">
-        <p>Biz kimik?</p>
-        <p className="text-[36px] font-light leading-[110%]">
+      <section className="w-full md:w-[50%] flex flex-col  gap-4">
+        <p className="text-2xl md:text-sm ">Biz kimik?</p>
+        <p className="text-[32px] md:text-[36px] font-light leading-[110%]">
           Rəqəmlərin dili ilə şirkətiniz üçün innovativ həllər!
         </p>
-        <p className="text-[17px] font-light leading-[120%]">
+        <p className="text-xl md:text-[17px] font-light leading-[120%]">
           Rəqəmlərin dili ilə şirkətinizi daha dərindən analiz edərək, mövcud
           maliyyə vəziyyətinizi aydın şəkildə görməyinizə kömək edirik. Dəqiq
           maliyyə uçotu və analitik hesabatlar vasitəsilə şirkətinizin güclü və
           zəif tərəflərini müəyyənləşdirir, inkişaf potensialınızı
           qiymətləndiririk.
         </p>
-        <p className="text-[17px] font-light leading-[120%]">
+        <p className="text-xl md:text-[17px] font-light leading-[120%]">
           Şirkətlərin maliyyə uçot sistemini inkişaf etdirməklə, biznes
           proseslərinizi daha şəffaf və idarəolunan hala gətiririk. İnnovativ
           maliyyə həllərimiz sayəsində xərclərinizi azaldır, gəlirliliyinizi
@@ -70,13 +70,13 @@ function BizKimikPage() {
                 <Image
                   src={item.icon}
                   alt="image"
-                  className="size-[35px]"
+                  className="size-[45px] md:size-[35px]"
                   height={100}
                   width={100}
                 />
                 <div>
-                  <p className="text-[17] font-semibold">{item.headText} :</p>
-                  <p className="text-[17]">{item.text}</p>
+                  <p className="text-xl md:text-[17] font-semibold">{item.headText} :</p>
+                  <p className=" md:text-[17]">{item.text}</p>
                 </div>
               </div>
             );
