@@ -29,7 +29,7 @@ function GuvenFinans() {
         <div className="flex justify-end w-full ">
           <Link
             href="/guvenfinans"
-            className="absolute right-0 bottom-14 rotate-text gap-1 rounded-bl-[10px] border rounded-tr-[10px] w-[130px] h-[40px] md:w-[164px] md:h-[54px] flex justify-center items-center"
+            className="absolute md:static right-0 top-[80vh] rotate-text gap-1 rounded-bl-[10px] border rounded-tr-[10px] w-[130px] h-[40px] md:w-[164px] md:h-[54px] flex justify-center items-center"
           >
             <p className="text-sm ">Bizə yazın</p>
             <CgArrowTopRight className="font-bold md:text-xl text-[16px]" />

@@ -27,6 +27,15 @@ body {
 .guven-bg-image {
   background-image: url('/guvenfinans/guvenfinans-background.png');
   background-repeat: no-repeat;
+ 
+  position: relative;
+}
+
+.guven-bg-image::before {
+  position: absolute;
+  inset: 0;
+  background-color: #0F2F7399; 
+  z-index: 0;
 }
 .myDarkBlue {
   color:#15305B;

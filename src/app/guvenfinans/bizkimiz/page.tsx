@@ -16,8 +16,8 @@ function BizKimikPage() {
     setIsClicked(!isClicked);
   };
   return (
-    <main className=" flex flex-col md:flex-row items-center  md:items-center gap-8 min-h-[100vh]">
-      <section className="relative md:py-0 py-10">
+    <main className=" flex flex-col md:flex-row items-center  md:items-center gap-8 min-h-[100vh] " >
+      <section className="relative md:py-0 pt-10">
         <video
           ref={videoRef} 
           className="h-[300px] w-[660px] md:h-[500px] md:w-[627px] object-cover rounded-[13px] md:rounded-l-[13px]"
@@ -33,7 +33,7 @@ function BizKimikPage() {
           null
         ) : (
           <div
-            className="size-[80px] flex justify-center items-center bg-white rounded-full absolute top-[40%] left-[37%] md:top-[44%] md:left-[42%] z-10 cursor-pointer"
+            className="size-[80px] flex justify-center items-center bg-white rounded-full absolute top-[39%] left-[36%] md:top-[44%] md:left-[42%] z-10 cursor-pointer"
             style={{
               background:
                 "linear-gradient(90deg, rgba(61, 124, 223, 1) 0%, rgba(137, 170, 222, 1) 50%)",

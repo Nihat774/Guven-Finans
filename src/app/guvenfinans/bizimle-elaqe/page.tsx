@@ -3,7 +3,7 @@ import React from "react";
 function ContactUsPage() {
   return (
     <main className=" w-full flex md:flex-row flex-col md:gap-0 gap-5 justify-between items-center py-5 md:py-[50px]">
-      <section className="flex flex-col gap-7 items-center w-full md:w-[45%]">
+      <section className="flex flex-col gap-7 items-start md:items-center w-full md:w-[45%]">
         <div className="text-2xl md:text-[30px] font-light leading-[130%] ">
           <p className=" w-full md:w-[20vw]">Son dəyişiklikləri </p>
           <p className="w-full md:w-[26vw]">bilmək üçün bizi izləyin.</p>

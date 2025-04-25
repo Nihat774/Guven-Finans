@@ -3,7 +3,7 @@ import React from "react";
 function Comments() {
   return (
     <main className="py-0 md:py-[30px]">
-      <h2 className="text-[30px] md:text-[45px] leading-[100%] md:leading-4 py-10 md:py-[14vh]  flex justify-start md:justify-center">
+      <h2 className="text-[30px] md:text-[45px] leading-[100%] md:leading-4  py-7 md:py-[14vh]  flex justify-start md:justify-center">
         Müştəri rəyləri:
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
