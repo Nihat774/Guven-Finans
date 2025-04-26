@@ -19,7 +19,7 @@ function Header() {
         </Link>
 
         {/* Desktop  */}
-        <nav className="hidden md:flex justify-around text-white w-full md:w-[45vw]">
+        <nav className="hidden md:flex justify-around text-white md:w-[45vw]">
           {header.map((item) => (
             <Link key={item.id} href={item.path} className="text-[17px]">
               {item.name}

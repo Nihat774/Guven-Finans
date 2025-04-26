@@ -43,8 +43,8 @@ function Blog() {
               src="/images/cartimages/image-1.png"
               className="rounded-[45px] object-cover size-[250px] md:size-[450px] "
               alt="image"
-              width={450}
-              height={450}
+              width={250}
+              height={250}
             />
           </section>
 
