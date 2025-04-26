@@ -87,12 +87,12 @@ export const header = [
   },
   {
     id: 5,
-    path: "/guvenfinans",
+    path: "/guvenfinans/#bloqlar",
     name: "Bloqlar",
   },
   {
     id: 6,
-    path: "/guvenfinans",
+    path: "/guvenfinans/#yazilar",
     name: "Yazılar",
   },
 ];

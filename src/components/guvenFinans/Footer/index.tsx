@@ -112,7 +112,7 @@ function Footer() {
         <div className="flex flex-col justify-center gap-5 md:pb-0 pb-10">
           <p className="text-xl font-semibold">Səhifələr</p>
 
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 ">
             {pages.map((item, index) => {
               return (
                 <div className="flex gap-2 items-center hover:underline" key={index}>

@@ -60,19 +60,7 @@ function SubHeader() {
             )
           })
          }
-          {/* <Link href="" className="bg-white rounded-full p-2">
-            <FaGoogle className="text-darkBlue text-[#15305B] size-[18px] " />
-          </Link>
-
-          <Link href="" className="bg-white rounded-full p-2">
-            <FaInstagram className="text-darkBlue text-[#15305B] size-[18px] " />
-          </Link>
-          <Link href="" className="bg-white rounded-full h-fit p-2">
-            <FaFacebookF className="text-darkBlue text-[#15305B] size-[18px]" />
-          </Link>
-          <Link href="" className="bg-white rounded-full p-2">
-            <FaLinkedin className="text-darkBlue text-[#15305B] size-[18px] " />
-          </Link> */}
+       
         </div>
       </header>
       <div className="h-[1px]  bg-white"></div>

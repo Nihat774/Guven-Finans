@@ -41,11 +41,11 @@ function GuvenFinans() {
         <Blog />
       </section>
 
-      <section className="bizkimik?">
+      <section id="bizkimik?">
         <BizKimikPage />
       </section>
 
-      <section className="musteri-reyleri">
+      <section id="musteri-reyleri">
         <Comments />
       </section>
 
