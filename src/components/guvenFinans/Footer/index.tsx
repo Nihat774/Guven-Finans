@@ -61,7 +61,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 py-4 md:py-11">
+        <div className="flex flex-col gap-6 mt-4 md:mt-11 h-fit">
           <p className="text-[20px] font-semibold">Əlaqə</p>
 
           <div className="flex flex-col gap-5">
@@ -92,7 +92,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 py-4 md:py-11">
+        <div className="flex flex-col gap-6 my-4 md:mt-11 h-fit">
           <p className="text-xl font-semibold">Xidmətlərimiz</p>
 
           <div className="flex flex-col gap-2">
@@ -109,7 +109,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center gap-5 md:pb-0 pb-10">
+        <div className="flex flex-col h-fit gap-5 mt-0 2xl:mt-11 md:mt-11">
           <p className="text-xl font-semibold">Səhifələr</p>
 
           <div className="flex flex-col gap-1 ">
