@@ -29,6 +29,8 @@ body {
   background-image: url('/guvenfinans/guvenfinans-background.png');
   background-repeat: no-repeat;
   position: relative;
+  background-size: contain;
+
 }
 
 .guven-bg-image::before {
