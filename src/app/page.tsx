@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <main className="flex md:flex-row flex-col gap-8 justify-evenly items-center min-h-screen bg-[#457BD1] text-white">
-        <section className="flex flex-col items-center md:w-fit w-full">
+        <section className="flex flex-col  md:w-fit w-full ">
           {/* icon */}
           <Image
             src="/images/icon.svg"
@@ -15,11 +15,11 @@ export default function Home() {
             alt="icon"
             className="w-[150px] h-[150px] md:w-[368px]  md:h-[257px] "
           />
-          <div className="w-full items-center md:w-[28vw] flex flex-col gap-5">
+          <div className="w-full md:w-[28vw] flex flex-col gap-5">
             <h2 className="text-2xl md:text-[42px] leading-[100%]">
               İnnovativ maliyyə həlləri!
             </h2>
-            <p className="text-[17px] w-full md:w-[25vw] text-center">
+            <p className="text-[17px] w-full md:w-[25vw]">
               Rəqəmlərin dili ilə şirkətinizi sizə tanıdaraq,şirkətlərin maliyyə
               uçot sistemini inkişaf etdirib, innovativ maliyyə həlləri
               nəticəsində şirkətinizə dəyər qatırıq.

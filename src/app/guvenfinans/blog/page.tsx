@@ -48,7 +48,7 @@ function Blog() {
             />
           </section>
 
-          <section className="w-full md:w-[41%] text-white flex flex-col gap-6 p-5">
+          <section className=" md:w-[41%] text-white flex flex-col gap-6 p-5">
             <p className="text-xl">Niyə biz?</p>
             <p className="text-2xl md:text-4xl font-light w-full md:w-[34vw]">
               Güvənli və innovativ maliyyə həlləri mərkəzi!
