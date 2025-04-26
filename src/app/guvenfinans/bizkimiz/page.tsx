@@ -16,7 +16,7 @@ function BizKimikPage() {
     setIsClicked(!isClicked);
   };
   return (
-    <main className=" flex flex-col md:flex-row items-center  md:items-center gap-8 min-h-[100vh] " >
+    <main className=" flex flex-col md:flex-row items-center  md:items-center gap-8 min-h-[60vh] md:min-h-[100vh] " >
       <section className="relative md:py-0 pt-10">
         <video
           ref={videoRef} 

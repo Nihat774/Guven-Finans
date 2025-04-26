@@ -15,7 +15,7 @@ import { TbMailFilled } from "react-icons/tb";
 function Footer() {
   return (
     <footer>
-      <div className="flex md:flex-row flex-col justify-between  min-h-[70vh] bg-darkBlue bg-[#15305B] text-white px-5 md:px-[86px]">
+      <div className="flex md:flex-row flex-col justify-between  md:min-h-[70vh] 2xl:min-h-[45vh] bg-darkBlue bg-[#15305B] text-white px-5 md:px-[86px]">
         <div className="flex flex-col ">
           <Image
             src="/images/icon.svg"

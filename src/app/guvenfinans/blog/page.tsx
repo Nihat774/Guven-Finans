@@ -9,7 +9,7 @@ function Blog() {
     <>
       <main className="bg-white -mx-[40px] md:-mx-[86px] ">
         <section className="bg-white ">
-          <div className="px-[20px] md:px-[100px] flex md:justify-evenly items-center h-[19vh] md:h-[40vh]">
+          <div className="px-[20px] md:px-[100px] flex md:justify-evenly items-center h-[19vh] md:h-[40vh] 2xl:h-[25vh]">
             {numbers.map((item) => {
               return (
                 <React.Fragment key={item.id}>

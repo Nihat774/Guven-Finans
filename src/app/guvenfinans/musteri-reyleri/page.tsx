@@ -9,7 +9,7 @@ function Comments() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
         {comments.map((item) => {
           return (
-            <div className="h-fit md:h-[241px]  flex flex-col gap-3 " key={item.id}>
+            <div className="h-fit md:h-[241px] 2xl:h-[150px]  flex flex-col gap-3 " key={item.id}>
               <p className="text-xl font-semibold">{item.name}</p>
               <p className="text-lg font-light leading-[18px]">{item.work}</p>
               <p className="text-lg md:text-[15px] font-light leading-6">{item.comment}</p>
