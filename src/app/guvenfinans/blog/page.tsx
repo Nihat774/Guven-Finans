@@ -1,4 +1,3 @@
-"use client";
 import { advantagesText, numbers } from "@/constants/guvenFinans/contantItems";
 import Image from "next/image";
 import React from "react";
@@ -7,17 +6,19 @@ import { FaCheck } from "react-icons/fa";
 function Blog() {
   return (
     <>
-      <main className="bg-white -mx-[40px] md:-mx-[86px] ">
-        <section className="bg-white ">
-          <div className="px-[20px] md:px-[100px] flex md:justify-evenly items-center h-[19vh] md:h-[40vh] 2xl:h-[25vh]">
+      <main className=" -mx-[40px] md:-mx-[86px] ">
+        <section className=" ">
+          <div className="px-[20px] md:px-[100px] flex flex-col md:flex-row md:justify-evenly items-center h-fit  py-8 md:h-[40vh] 2xl:h-[25vh]">
             {numbers.map((item) => {
               return (
                 <React.Fragment key={item.id}>
                   <div className="flex flex-col items-center">
-                    <p className="text-[35px] md:text-[75px] font-semibold font-urbanist">
+                    <p className="text-[9rem] md:text-[75px] font-semibold font-urbanist">
                       {item.count}
                     </p>
-                    <p className="text-center text-[13px] md:text-[17px] font-light">{item.text}</p>
+                    <p className="text-center text-[2rem] md:text-[17px] font-light">
+                      {item.text}
+                    </p>
                   </div>
                 </React.Fragment>
               );

@@ -4,7 +4,7 @@ function ContactUsPage() {
   return (
     <main className=" w-full flex md:flex-row flex-col md:gap-0 gap-5 justify-between items-center py-5 md:py-[50px]">
       <section className="flex flex-col gap-7 items-start md:items-center w-full md:w-[45%]">
-        <div className="text-2xl md:text-[30px] font-light leading-[130%] ">
+        <div className="text-lg md:text-[30px] font-light leading-[130%]">
           <p className=" w-full md:w-[20vw]">Son dəyişiklikləri </p>
           <p className="w-full md:w-[26vw]">bilmək üçün bizi izləyin.</p>
         </div>
@@ -24,8 +24,9 @@ function ContactUsPage() {
       <section>
         <Image
           className=" rounded-r-[15px]"
-          width={700}
+          width={600}
           height={343}
+          sizes="343px 700px"
           src="/images/bizimle-elaqe-page-image.png"
           alt="bizimle-elaqe.png"
         />

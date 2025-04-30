@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <main className="flex md:flex-row flex-col gap-8 justify-evenly items-center min-h-screen bg-[#457BD1] text-white">
-        <section className="flex flex-col  md:w-fit w-full ">
+      <main className="flex md:flex-row flex-col gap-8 justify-evenly items-center min-h-screen bg-[#457BD1] text-white ">
+        <section className="flex flex-col  md:w-fit w-full px-12">
           {/* icon */}
           <Image
             src="/images/icon.svg"
@@ -28,13 +28,13 @@ export default function Home() {
         </section>
 
         <section className="flex md:flex-row flex-col items-center gap-4 md:gap-8 pb-5 md:pb-0">
-          <Link href="/guvenfinans" className="flex flex-col items-center justify-around p-[10px] md:p-[25px] w-[270px] h-[180px] md:w-[280px]  md:h-[240px] rounded-[15px] bg-white text-black">
+          <Link href="/guvenfinans" className="flex flex-col items-center justify-around p-[10px] md:p-[25px] w-[300px] h-[200px] md:w-[280px]  md:h-[240px] rounded-[15px] bg-white text-black">
             {/* icon */}
             <Image
               src="/icons/scales.svg"
               width={100}
               height={100}
-              className="size-[40px] md:size-[54px]"
+              className="size-[50px] md:size-[54px]"
               alt="Güvən finans"
             />
             <p className="text-md md:text-xl font-semibold">Güvən finans</p>
@@ -43,19 +43,20 @@ export default function Home() {
               uçot sistemini inkişaf etdirin.
             </p>
           </Link>
+
           <div className="flex flex-col gap-4 md:gap-12">
             {cartData.map((item) => {
               return (
                 <Link 
                 href={item.path}
-                  className="flex flex-col items-center justify-around  p-[10px] md:p-[25px] w-[270px] h-[180px] md:w-[280px]  md:h-[240px] rounded-[15px] bg-white text-black"
+                  className="flex flex-col items-center justify-around  p-[10px] md:p-[25px]  w-[300px] h-[200px]  md:w-[280px]  md:h-[240px] rounded-[15px] bg-white text-black"
                   key={item.id}
                 >
                   <Image
                     src={item.icon}
                     width={100}
                     height={100}
-                    className="size-[40px] md:size-[54px]"
+                    className="size-[50px] md:size-[54px]"
                     alt={item.name}
                   />
                   <p className="text-md md:text-xl font-semibold">{item.name}</p>

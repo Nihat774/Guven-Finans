@@ -15,7 +15,9 @@ function Header() {
       >
         <Link href="/guvenfinans" className="text-white">
           <p className="text-2xl font-semibold">Güvən Finans</p>
-          <p className="text-[13px] md:text-[15px] font-light">Uğurlar Güvənlə Başlar</p>
+          <p className="text-[13px] md:text-[15px] font-light">
+            Uğurlar Güvənlə Başlar
+          </p>
         </Link>
 
         {/* Desktop  */}
@@ -27,7 +29,6 @@ function Header() {
           ))}
         </nav>
 
-        
         <Link
           href="/guvenfinans"
           className="hidden md:flex justify-center items-center rounded-tr-[10px] rounded-bl-[10px] font-semibold text-[16px] bg-white text-black h-[54px] w-[144px]"
@@ -42,7 +43,7 @@ function Header() {
       </header>
 
       {/* Mobile  */}
-      <footer
+      <div
         className={`fixed top-0 left-0 h-full w-[75%] sm:w-[60%] bg-[#1a1a1a] z-40 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-500 ease-in-out `}
@@ -71,13 +72,13 @@ function Header() {
           ))}
         </nav>
         <Link
-        onClick={()=>setIsOpen(false)}
+          onClick={() => setIsOpen(false)}
           href="/guvenfinans"
           className="flex justify-center m-5 items-center rounded-tr-[10px] rounded-bl-[10px] font-semibold text-[16px] bg-white text-black h-[54px] w-[144px]"
         >
           Bizimlə görüş
         </Link>
-      </footer>
+      </div>
 
       {isOpen && (
         <div
